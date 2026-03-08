@@ -3,9 +3,8 @@ public class Mobil {
     private String warna;
     private String merk;
     private int kecepatan;
-    private int kecepatanms;
-    private int jarak;
     private int waktu;
+    private int jarak;
 
     public void setNopol(String n) {
         nopol = n;
@@ -32,7 +31,7 @@ public class Mobil {
     }
 
     public void ubahKecepatan(){
-        kecepatanms = (kecepatan * 1000) / 3600; 
+        int kecepatanms = (kecepatan * 1000) / 3600; 
         System.out.println("Kecepatan dalam satuan m/s: "+ kecepatanms);
     }
 
