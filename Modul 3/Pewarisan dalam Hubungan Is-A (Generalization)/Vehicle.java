@@ -1,4 +1,4 @@
-public class Vehicle {
+public final class Vehicle {
     Vehicle() {
         System.out.println("Vehicle is created");
     }
