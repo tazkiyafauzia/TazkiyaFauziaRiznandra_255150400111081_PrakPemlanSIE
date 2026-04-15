@@ -6,11 +6,6 @@ public class Node {
         this.data = data;
     }
 
-    Node(Object data, Node next) {
-        this.data = data;
-        this.next = next;
-    }
-
     public static void main(String[] args) {
         Node node = new Node("A");
 
